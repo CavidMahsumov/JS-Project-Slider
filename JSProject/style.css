@@ -1,0 +1,178 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    overflow: hidden;
+}
+
+#first-div{
+    margin-top: 2em;
+    width: 90%;
+    height: 50vh;
+    background-color: transparent;
+    margin-left: 5em;
+}
+
+#first-div>img{
+    width: 100%;
+    height: 50vh;
+}
+
+#shadow-div{
+    opacity: 2.5;
+    width: 100%;
+    height: 50vh;
+    background-color: rgba(0,0,0,0.4);
+    z-index: 10;
+    margin-top: -30.4em;
+
+}
+
+#h1{
+    margin-top: -4em;
+    margin-left: 8em;
+    font-size: 6em;
+    color: rgb(68, 68, 177);
+    z-index: 2;
+
+}
+#h2{
+    margin-top: -1em;
+    position: absolute;
+    color: white;
+    animation: bounceInDown; 
+    animation-duration: 3s;
+    margin-left: 25em;
+    z-index: 2;
+}
+#btn1{
+    margin-left: 55em;
+    margin-top: 7em ;
+    width: 200px;
+    height: 5vh;
+    background-color: rgb(23, 197, 23);
+    border-radius: 6px;
+    animation: backInDown; 
+    animation-duration: 4s;
+}
+
+#btn2{
+    background-color: rgb(50, 50, 189);
+    position: absolute;
+    margin-left: 130em;
+    border-radius: 10px;
+    margin-top: -20em;
+}
+#btn3{
+    background-color: rgb(50, 50, 189);
+    position: absolute;
+    margin-left: 5em;
+    border-radius: 10px;
+    margin-top: -20em;
+}
+
+
+
+#i2{
+    margin-left: 19em;
+    height: 50vh;
+    display: none;
+}
+
+#h12{
+    margin-top: -4em;
+    margin-left: 8em;
+    font-size: 6em;
+    color: rgb(68, 68, 177);
+    z-index: 2;
+}
+
+#h22{
+    margin-top: -1em;
+    position: absolute;
+    color: white;
+    margin-left: 25em;
+    z-index: 2;
+}
+
+#btn11{
+    margin-left: 55em;
+    margin-top: 7em ;
+    width: 200px;
+    height: 5vh;
+    background-color: rgb(240, 54, 40);
+    border-radius: 6px;
+    font-weight: bolder;
+}
+
+#h13{
+    margin-top: -3em;
+    margin-left: 4em;
+    font-size: 6em;
+    color: rgb(68, 68, 177);
+    z-index: 2;
+    position: absolute;
+}
+#h23{
+    margin-top: -6em;
+    margin-left: 30em;
+    position: absolute;
+    color: white;
+    z-index: 2;
+}
+#btn12{
+    margin-top: -5em;
+    margin-left: 45em;
+    width: 200px;
+    height: 5vh;
+    background-color: rgb(214, 148, 24);
+    border-radius: 6px;
+    font-weight: bolder;
+}
+
+#btn13{
+    margin-left: 64em;
+    width: 200px;
+    height: 5vh;
+    background-color: rgb(240, 54, 40);
+    border-radius: 6px;
+    font-weight: bolder;
+    margin-top: -3.7em;
+
+}
+
+#i3{
+    margin-left: 38em;
+    height: 50vh;
+    display: none;
+}
+#i4{
+    margin-left: 12em;
+    height: 50vh;
+    display: none;
+}
+#btn14{
+    margin-left: 55em;
+    width: 200px;
+    height: 5vh;
+    background-color: rgb(255, 238, 0);
+    border-radius: 6px;
+    font-weight: bolder;
+    margin-top: -3.7em;
+}
+
+#h14{
+    margin-top: -3em;
+    margin-left: 5em;
+    font-size: 6em;
+    color: rgb(68, 68, 177);
+    z-index: 2;
+    position: absolute;
+}
+#h24{
+    margin-top: -6em;
+    margin-left: 30em;
+    position: absolute;
+    color: white;
+    z-index: 2;
+}
